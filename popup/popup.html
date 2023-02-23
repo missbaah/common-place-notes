@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <h1>Common Place Notes</h1>
+    <form>
+      <div class="form-input flex-item">
+        <label>Title</label>
+        <input type="text" id="title" placeholder="Title.." />
+      </div>
+      <div class="form-input flex-item">
+        <label>Notes</label>
+        <textarea
+          type="text"
+          id="body"
+          placeholder="Start your notes here"
+          value="download"
+        ></textarea>
+      </div>
+      <div class="button-flex">
+        <button id="download">Download</button>
+      </div>
+    </form>
+    <p>
+      Tip: Enable text wrap in your notepad by clicking view and checking on the
+      text wrap option
+    </p>
+    <script src="popup.js"></script>
+  </body>
+</html>

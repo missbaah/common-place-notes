@@ -1,0 +1,56 @@
+html {
+  min-width: 450px;
+  min-height: 450px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  width: 350px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#body {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.button-flex {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  padding: 6px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
